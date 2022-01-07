@@ -1,0 +1,41 @@
+/* 
+    Created on : 30/12/2021, 15:45:10
+    Author     : Greidson Santos
+*/
+
+body .carousel-item {
+    background-size: 100% auto!important;
+    background-position-x: center!important;
+    background-position-y: center!important;
+    background-repeat: no-repeat!important;
+}
+
+body .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    background: hsl(0deg 0% 0% / 48%);
+    padding: 20px;
+}
+
+.brightness-50 {
+  filter:brightness(50%);
+}
+.bg-dark-opacity{
+    background: rgb(0 0 0 / 52%);
+}
+
+.display-none{
+    display: none;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
