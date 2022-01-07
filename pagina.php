@@ -1,10 +1,18 @@
 <?php include('header.php') ?>
+<?php
+    function pageName()
+    {
+        $paginas = ['Página Interna', 'Quem Somos', 'Visão', 'Valores'];
+        $get = empty($_GET['p']) || empty($paginas[$_GET['p']]) ? 0 : $_GET['p'];
+        return $paginas[$get]; 
+    }
+?>
 
 <div style="background: url('./Assets/images/voluntariado.jpg') no-repeat center center;background-size:100% auto;">
     <div class="p-5 mb-4 bg-dark-opacity">
         <div class="container py-5">
             <div class="container py-5">
-                <h1 class="display-5 fw-bold text-light">Página Interna</h1>
+                <h1 class="display-5 fw-bold text-light"><?= pageName() ?></h1>
             </div>
         </div>
     </div>
@@ -20,7 +28,7 @@
             orci rhoncus, accumsan mauris non, mattis ante. Aliquam tempor, tortor 
             eget molestie efficitur, elit dui eleifend elit, nec lobortis 
             lectus elit eget mauris. <br> 
-            <img src="<?= $imgrand_p1 . rand(1, 9) . $imgrand_p2 . rand(1, 9) ?>" width="300" style="float:left;padding: 15px 20px 0 0;">
+            <img src="http://www.oyonale.com/imagemix_exe.php?lang=fr&source=1&images=2&width=600&height=600&bgcolor=9&pieces=500&minsize=5&maxsize=100&stretch=1&minopacity=0&maxopacity=80&scatter=1&pattern=1" width="300" style="float:left;padding: 15px 20px 0 0;">
             Aliquam mollis dui libero, non dapibus ipsum 
             varius sed. In pharetra porttitor sapien quis facilisis. In lacinia 
             eleifend enim et euismod. Aenean justo ante, malesuada at ornare id, 

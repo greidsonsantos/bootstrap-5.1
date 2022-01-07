@@ -37,11 +37,11 @@ $imgrand = './Assets/images/rand';
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">A empresa</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Quem Somos</a></li>
-                                    <li><a class="dropdown-item" href="#">Missão</a></li>
-                                    <li><a class="dropdown-item" href="#">Valores</a></li>
+                                    <li><a class="dropdown-item" href="./pagina.php?p=1">Quem Somos</a></li>
+                                    <li><a class="dropdown-item" href="./pagina.php?p=2">Missão</a></li>
+                                    <li><a class="dropdown-item" href="./pagina.php?p=3">Valores</a></li>
                                     <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Colaboradores</a></li>
+                                    <li><a class="dropdown-item" href="./colaboradores.php">Colaboradores</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
